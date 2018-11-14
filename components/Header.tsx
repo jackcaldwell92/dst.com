@@ -1,15 +1,20 @@
 import Link from 'next/link';
 import * as React from 'react';
-import { HeaderDiv } from '../styles/components/HeaderDiv';
-import { HeaderLink } from '../styles/components/HeaderLink';
+import { Navbar } from '../styles/components/Navbar';
+import { Links } from '../styles/components/Links';
+import { LinkText } from '../styles/components/LinkText';
+import { Logo } from '../styles/components/Logo';
 
 export const Header = () => (
-  <HeaderDiv>
-    <Link href="/">
-      <HeaderLink>Home</HeaderLink>
-    </Link>
-    <Link href="/contact">
-      <HeaderLink>Contact</HeaderLink>
-    </Link>
-  </HeaderDiv>
+  <Navbar>
+    <Logo>DS Textile Sourcing</Logo>
+    <Links>
+      <Link href="/">
+        <LinkText>Home</LinkText>
+      </Link>
+      <Link href="/contact">
+        <LinkText>Contact</LinkText>
+      </Link>
+    </Links>
+  </Navbar>
 );

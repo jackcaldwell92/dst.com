@@ -9,8 +9,10 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0px;
     padding: 0px;
-    background-color: ${props => props.theme.darkGrey};
+    background-color: ${(props: any) => props.theme.darkGrey};
     font-family: 'Open Sans Condensed';
+    font-size: 10px;
+    text-shadow: 0px 16px 24px rgba(0,0,0,0.1);
   }
 `;
 
