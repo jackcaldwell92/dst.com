@@ -1,6 +1,9 @@
 import styled from '../styled-components';
 
 export const IndexMainDiv = styled.div`
-  position: absolute;
-  top: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  height: 50vh;
 `;

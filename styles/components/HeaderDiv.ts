@@ -1,12 +1,10 @@
 import styled from '../styled-components';
 
 export const HeaderDiv = styled.div`
-  position: absolute;
-  top: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 100vh;
   width: 100%;
   z-index: -1;
