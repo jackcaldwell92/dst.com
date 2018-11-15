@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static\\development\\pages\\index.js.b027e0c210b5763d790a.hot-update.js","sources":["webpack:///./styles/components/ImageDiv.ts"],"sourcesContent":["import styled from '../styled-components';\r\n\r\nexport const ImageDiv = styled.div`\r\n  margin-right: 100px;\r\n`;\r\n"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAEA;;;;A","sourceRoot":""}

@@ -5,4 +5,5 @@ export const HeaderText = styled.h1`
   font-size: 4rem;
   letter-spacing: 0.5rem;
   font-weight: normal;
+  /* text-align: center; */
 `;

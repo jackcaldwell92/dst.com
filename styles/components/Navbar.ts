@@ -5,7 +5,7 @@ export const Navbar = styled.div`
   display: flex;
   width: 100%;
   color: ${(props: any) => props.theme.offWhite};
-  justify-content: flex-end;
+  justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 1;

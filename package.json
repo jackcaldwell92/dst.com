@@ -5,6 +5,7 @@
   "devDependencies": {
     "@types/next": "^7.0.4",
     "@types/react": "^16.7.4",
+    "@types/react-animate-on-scroll": "^2.1.1",
     "@types/styled-components": "^4.1.0",
     "@zeit/next-typescript": "^1.1.1",
     "tslint": "^5.11.0",
@@ -21,9 +22,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "animate.css": "^3.7.0",
     "next": "^7.0.2",
     "react": "^16.6.3",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.6.3",
+    "react-reveal": "^1.2.2",
     "styled-components": "^4.1.1"
   }
 }
