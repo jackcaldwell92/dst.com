@@ -16,6 +16,7 @@ export default class extends React.Component<any, any> {
   public constructor(props: any) {
     super(props);
     this.mainRef = React.createRef();
+    this.homeRef = React.createRef();
   }
 
   public handleFindOutMoreButtonClicked = () => {
@@ -25,20 +26,41 @@ export default class extends React.Component<any, any> {
     });
   };
 
+  public handleNavigation = (navigation: string) => {
+    console.log('handling navigation to', navigation);
+    switch (navigation) {
+      case 'home':
+        window.scrollTo({
+          behavior: 'smooth',
+          top: 0,
+        });
+    }
+  };
+
   public render() {
     return (
       <Layout>
         <>
           <HeaderImage src="/static/header.jpeg" />
           <HeaderDiv>
-            <HeaderText>From concept,</HeaderText>
-            <HeaderText>to complete.</HeaderText>
-            <HeaderTextBody>Fully factored garment production.</HeaderTextBody>
-            <Button onClick={() => this.handleFindOutMoreButtonClicked()}>
-              Find out more
-            </Button>
+            <Fade>
+              <HeaderText>From concept,</HeaderText>
+            </Fade>
+            <Fade duration={2000}>
+              <HeaderText>to complete.</HeaderText>
+            </Fade>
+            <Fade duration={3000}>
+              <HeaderTextBody>
+                Fully factored garment production.
+              </HeaderTextBody>
+            </Fade>
+            <Fade bottom={true} duration={1500}>
+              <Button onClick={() => this.handleFindOutMoreButtonClicked()}>
+                Find out more
+              </Button>
+            </Fade>
           </HeaderDiv>
-          <Header />
+          <Header handleNavigation={this.handleNavigation} />
           <div ref={this.mainRef}>
             <IndexBody />
           </div>

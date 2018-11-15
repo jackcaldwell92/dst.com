@@ -7,4 +7,5 @@ export const RightText = styled.div`
   :hover {
     transform: scale(1.1);
   }
+  text-align: justify;
 `;
