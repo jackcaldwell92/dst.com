@@ -17,9 +17,13 @@ export const Header = (props: IProps) => (
       />
     </div>
     <Links>
-      <LinkText>About</LinkText>
-      <LinkText>Services</LinkText>
-      <LinkText>Contact</LinkText>
+      <LinkText onClick={() => props.handleNavigation('about')}>About</LinkText>
+      <LinkText onClick={() => props.handleNavigation('services')}>
+        Services
+      </LinkText>
+      <LinkText onClick={() => props.handleNavigation('contact')}>
+        Contact
+      </LinkText>
     </Links>
   </Navbar>
 );

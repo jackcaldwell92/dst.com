@@ -4,7 +4,7 @@ export const Button = styled.button`
   margin: ${props => props.theme.spacing * 5}px;
   padding: ${props => props.theme.spacing}px
     ${props => props.theme.spacing * 2}px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   background: linear-gradient(
     45deg,
     ${props => props.theme.iceBlue},

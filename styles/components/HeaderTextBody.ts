@@ -5,4 +5,5 @@ export const HeaderTextBody = styled.p`
   font-size: 2rem;
   max-width: 33vw;
   letter-spacing: 0.2rem;
+  text-align: center;
 `;

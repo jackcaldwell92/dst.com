@@ -4,13 +4,13 @@ import { ThemeProvider } from '../styles/styled-components';
 import { theme } from '../styles/theme';
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
   body {
     margin: 0px;
     padding: 0px;
     background-image: linear-gradient(45deg, ${(props: any) =>
       props.theme.darkGrey}, #585858);
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans';
     font-size: 10px;
     text-shadow: 0px 16px 24px rgba(0,0,0,0.1);
   }

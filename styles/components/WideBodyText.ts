@@ -1,7 +1,7 @@
 import styled from '../styled-components';
 
 export const WideBodyText = styled.p`
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: ${(props: any) => props.theme.offWhite};
   max-width: 66vw;
   letter-spacing: 0.15rem;
