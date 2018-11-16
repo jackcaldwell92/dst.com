@@ -7,5 +7,5 @@ export const HeaderText = styled.h1`
   letter-spacing: 0.5rem;
   font-weight: normal;
   font-family: 'Raleway';
-  margin: 0.2rem;
+  line-height: 3.5rem;
 `;

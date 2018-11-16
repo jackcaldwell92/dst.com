@@ -1,6 +1,10 @@
 import styled from '../styled-components';
 
-export const HeaderDiv = styled.div`
+interface Props {
+  opacity: number;
+}
+
+export const HeaderDiv = styled.div<Props>`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,4 +12,5 @@ export const HeaderDiv = styled.div`
   height: 100vh;
   width: 100%;
   z-index: -1;
+  opacity: ${(props: any) => props.opacity};
 `;

@@ -12,7 +12,7 @@ import { RightText } from '../styles/components/RightText';
 export const Services = () => (
   <>
     <IndexBodyGrid>
-      <Fade left={true}>
+      <Fade>
         <LeftText>
           <HeaderText>Design</HeaderText>
           <BodyText>
@@ -21,17 +21,17 @@ export const Services = () => (
           </BodyText>
         </LeftText>
       </Fade>
-      <Fade right={true}>
+      <Fade>
         <RightImage>
           <img src="/static/baseline-edit-24px.svg" />
         </RightImage>
       </Fade>
-      <Fade left={true}>
+      <Fade>
         <LeftImage>
           <img src="/static/baseline-desktop_mac-24px.svg" />
         </LeftImage>
       </Fade>
-      <Fade right={true}>
+      <Fade>
         <RightText>
           <HeaderText>Development</HeaderText>
           <BodyText>
@@ -40,7 +40,7 @@ export const Services = () => (
           </BodyText>
         </RightText>
       </Fade>
-      <Fade left={true}>
+      <Fade>
         <LeftText>
           <HeaderText>Production</HeaderText>
           <BodyText>
@@ -49,17 +49,17 @@ export const Services = () => (
           </BodyText>
         </LeftText>
       </Fade>
-      <Fade right={true}>
+      <Fade>
         <RightImage>
           <img src="/static/round-location_city-24px.svg" />
         </RightImage>
       </Fade>
-      <Fade left={true}>
+      <Fade>
         <LeftImage>
           <img src="/static/round-local_shipping-24px.svg" />
         </LeftImage>
       </Fade>
-      <Fade right={true}>
+      <Fade>
         <RightText>
           <HeaderText>Supply</HeaderText>
           <BodyText>

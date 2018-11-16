@@ -25,10 +25,6 @@ export const About = () => (
         services, as well as personal load carriage equipment (PLCE), waterproof
         garments, armour carriers, tactical harnesses, and operational clothing.
       </WideBodyText>
-      <WideBodyText>
-        DST offers fully factored production or cut and make according to client
-        requirements.
-      </WideBodyText>
     </Fade>
   </AboutDiv>
 );

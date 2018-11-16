@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static\\development\\pages\\index.js.d0d60ca9d3163bb0d63f.hot-update.js","sources":["webpack:///./styles/components/HeaderLogo.ts"],"sourcesContent":["import styled from '../styled-components';\r\n\r\nexport const HeaderLogo = styled.img`\r\n  position: absolute;\r\n`;\r\n"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAEA;;;;A","sourceRoot":""}

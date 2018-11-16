@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/About.tsx":
 /*!******************************!*\
@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_components_AboutDiv__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/components/AboutDiv */ "./styles/components/AboutDiv.ts");
 /* harmony import */ var _styles_components_HeaderText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/components/HeaderText */ "./styles/components/HeaderText.ts");
 /* harmony import */ var _styles_components_WideBodyText__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/components/WideBodyText */ "./styles/components/WideBodyText.ts");
-var _jsxFileName = "/Users/jackcaldwell/Projects/dst.com/components/About.tsx";
+var _jsxFileName = "D:\\Projects\\dst.com\\components\\About.tsx";
 
 
 
@@ -67,13 +67,7 @@ var About = function About() {
       lineNumber: 22
     },
     __self: this
-  }, "We specialize in producing personal protective equipment for the private and public sector including military, police, ambulance and fire services, as well as personal load carriage equipment (PLCE), waterproof garments, armour carriers, tactical harnesses, and operational clothing."), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_WideBodyText__WEBPACK_IMPORTED_MODULE_4__["WideBodyText"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, "DST offers fully factored production or cut and make according to client requirements.")));
+  }, "We specialize in producing personal protective equipment for the private and public sector including military, police, ambulance and fire services, as well as personal load carriage equipment (PLCE), waterproof garments, armour carriers, tactical harnesses, and operational clothing.")));
 };
 
 /***/ }),
@@ -90,35 +84,66 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Contact", function() { return Contact; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_components_ContactDiv__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/components/ContactDiv */ "./styles/components/ContactDiv.ts");
-/* harmony import */ var _styles_components_HeaderText__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/components/HeaderText */ "./styles/components/HeaderText.ts");
-/* harmony import */ var _styles_components_NameInput__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/components/NameInput */ "./styles/components/NameInput.ts");
-var _jsxFileName = "/Users/jackcaldwell/Projects/dst.com/components/Contact.tsx";
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-reveal/Fade */ "./node_modules/react-reveal/Fade.js");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_components_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/components/Button */ "./styles/components/Button.ts");
+/* harmony import */ var _styles_components_CenterDiv__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/components/CenterDiv */ "./styles/components/CenterDiv.ts");
+/* harmony import */ var _styles_components_ContactDiv__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/components/ContactDiv */ "./styles/components/ContactDiv.ts");
+/* harmony import */ var _styles_components_MailTo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/components/MailTo */ "./styles/components/MailTo.ts");
+/* harmony import */ var _styles_components_WideBodyText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/components/WideBodyText */ "./styles/components/WideBodyText.ts");
+var _jsxFileName = "D:\\Projects\\dst.com\\components\\Contact.tsx";
+
+
+
 
 
 
 
 var Contact = function Contact() {
-  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_ContactDiv__WEBPACK_IMPORTED_MODULE_1__["ContactDiv"], {
+  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_ContactDiv__WEBPACK_IMPORTED_MODULE_4__["ContactDiv"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 11
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderText__WEBPACK_IMPORTED_MODULE_2__["HeaderText"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_CenterDiv__WEBPACK_IMPORTED_MODULE_3__["CenterDiv"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 12
     },
     __self: this
-  }, "Contact"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_NameInput__WEBPACK_IMPORTED_MODULE_3__["NameInput"], {
-    placeholder: "Name",
+  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 13
     },
     __self: this
-  }));
+  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_Button__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_MailTo__WEBPACK_IMPORTED_MODULE_5__["MailTo"], {
+    href: "mailto:steve@prtextiles.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "Contact Us"))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_WideBodyText__WEBPACK_IMPORTED_MODULE_6__["WideBodyText"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "If you would like to get in touch, please click the button above. Alternatively, you can message us at steve@prtextiles.com"))));
 };
 
 /***/ }),
@@ -139,7 +164,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_components_LinkText__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/components/LinkText */ "./styles/components/LinkText.ts");
 /* harmony import */ var _styles_components_Logo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/components/Logo */ "./styles/components/Logo.ts");
 /* harmony import */ var _styles_components_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/components/Navbar */ "./styles/components/Navbar.ts");
-var _jsxFileName = "/Users/jackcaldwell/Projects/dst.com/components/Header.tsx";
+var _jsxFileName = "D:\\Projects\\dst.com\\components\\Header.tsx";
 
 
 
@@ -176,23 +201,23 @@ var Header = function Header(props) {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_LinkText__WEBPACK_IMPORTED_MODULE_2__["LinkText"], {
     onClick: function onClick() {
-      return props.handleNavigation('about');
+      return props.handleNavigation('services');
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, "About"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_LinkText__WEBPACK_IMPORTED_MODULE_2__["LinkText"], {
+  }, "Services"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_LinkText__WEBPACK_IMPORTED_MODULE_2__["LinkText"], {
     onClick: function onClick() {
-      return props.handleNavigation('services');
+      return props.handleNavigation('about');
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     },
     __self: this
-  }, "Services"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_LinkText__WEBPACK_IMPORTED_MODULE_2__["LinkText"], {
+  }, "About"), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_LinkText__WEBPACK_IMPORTED_MODULE_2__["LinkText"], {
     onClick: function onClick() {
       return props.handleNavigation('contact');
     },
@@ -220,7 +245,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/styled-components */ "./styles/styled-components.ts");
 /* harmony import */ var _styles_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/theme */ "./styles/theme.ts");
-var _jsxFileName = "/Users/jackcaldwell/Projects/dst.com/components/Layout.tsx";
+var _jsxFileName = "D:\\Projects\\dst.com\\components\\Layout.tsx";
 
 function _templateObject() {
   var data = _taggedTemplateLiteral(["\n  @import url('https://fonts.googleapis.com/css?family=Open+Sans');\n  body {\n    margin: 0px;\n    padding: 0px;\n    background-image: linear-gradient(45deg, ", ", #585858);\n    font-family: 'Open Sans';\n    font-size: 10px;\n    text-shadow: 0px 16px 24px rgba(0,0,0,0.1);\n  }\n"]);
@@ -287,7 +312,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_components_LeftText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/components/LeftText */ "./styles/components/LeftText.ts");
 /* harmony import */ var _styles_components_RightImage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/components/RightImage */ "./styles/components/RightImage.ts");
 /* harmony import */ var _styles_components_RightText__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/components/RightText */ "./styles/components/RightText.ts");
-var _jsxFileName = "/Users/jackcaldwell/Projects/dst.com/components/Services.tsx";
+var _jsxFileName = "D:\\Projects\\dst.com\\components\\Services.tsx";
 
 
 
@@ -305,7 +330,6 @@ var Services = function Services() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    left: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -330,7 +354,6 @@ var Services = function Services() {
     },
     __self: this
   }, "Lorem ipsum something about design and some more interesting things. However, I don't want to write too many things here."))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    right: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -350,7 +373,6 @@ var Services = function Services() {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    left: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -370,7 +392,6 @@ var Services = function Services() {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    right: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
@@ -395,7 +416,6 @@ var Services = function Services() {
     },
     __self: this
   }, "Lorem ipsum something about development and some more interesting things. However, I don't want to write too many things here."))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    left: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
@@ -420,7 +440,6 @@ var Services = function Services() {
     },
     __self: this
   }, "Lorem ipsum something about production and some more interesting things. However, I don't want to write too many things here."))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    right: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
@@ -440,7 +459,6 @@ var Services = function Services() {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    left: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
@@ -460,7 +478,6 @@ var Services = function Services() {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    right: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -4450,9 +4467,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_components_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/components/Button */ "./styles/components/Button.ts");
 /* harmony import */ var _styles_components_HeaderDiv__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/components/HeaderDiv */ "./styles/components/HeaderDiv.ts");
 /* harmony import */ var _styles_components_HeaderImage__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/components/HeaderImage */ "./styles/components/HeaderImage.ts");
-/* harmony import */ var _styles_components_HeaderText__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/components/HeaderText */ "./styles/components/HeaderText.ts");
-/* harmony import */ var _styles_components_HeaderTextBody__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../styles/components/HeaderTextBody */ "./styles/components/HeaderTextBody.ts");
-var _jsxFileName = "/Users/jackcaldwell/Projects/dst.com/pages/index.tsx";
+/* harmony import */ var _styles_components_HeaderLogo__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/components/HeaderLogo */ "./styles/components/HeaderLogo.ts");
+/* harmony import */ var _styles_components_HeaderText__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../styles/components/HeaderText */ "./styles/components/HeaderText.ts");
+/* harmony import */ var _styles_components_HeaderTextBody__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../styles/components/HeaderTextBody */ "./styles/components/HeaderTextBody.ts");
+var _jsxFileName = "D:\\Projects\\dst.com\\pages\\index.tsx";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -4487,6 +4505,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+
 var _default =
 /*#__PURE__*/
 function (_React$Component) {
@@ -4499,6 +4518,18 @@ function (_React$Component) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(_default).call(this, props));
 
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleScroll", function () {
+      _this.setState({
+        headerOpacity: _this.getHeaderOpactity(window.innerHeight, window.scrollY)
+      });
+
+      console.log('header opacity: ', _this.state.headerOpacity);
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "getHeaderOpactity", function (windowHeight, scrollAmount) {// const opacity = windowHeight / scrollAmount / 10;
+      // return opacity;
+    });
+
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleFindOutMoreButtonClicked", function () {
       window.scrollTo({
         behavior: 'smooth',
@@ -4507,8 +4538,6 @@ function (_React$Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleNavigation", function (navigation) {
-      console.log(navigation);
-
       switch (navigation) {
         case 'home':
           window.scrollTo({
@@ -4545,8 +4574,15 @@ function (_React$Component) {
     _this.servicesRef = react__WEBPACK_IMPORTED_MODULE_0__["createRef"]();
     _this.aboutRef = react__WEBPACK_IMPORTED_MODULE_0__["createRef"]();
     _this.contactRef = react__WEBPACK_IMPORTED_MODULE_0__["createRef"]();
+    _this.state = {
+      headerOpacity: 1,
+      headerTextVisible: false
+    };
     return _this;
-  }
+  } // public componentDidMount() {
+  //   window.addEventListener('scroll', this.handleScroll);
+  // }
+
 
   _createClass(_default, [{
     key: "render",
@@ -4556,58 +4592,73 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_5__["Layout"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 88
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderImage__WEBPACK_IMPORTED_MODULE_9__["HeaderImage"], {
         src: "/static/header.jpeg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 90
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderDiv__WEBPACK_IMPORTED_MODULE_8__["HeaderDiv"], {
+        opacity: this.state.headerOpacity,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 91
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        delay: 2000,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 93
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderText__WEBPACK_IMPORTED_MODULE_10__["HeaderText"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderLogo__WEBPACK_IMPORTED_MODULE_10__["HeaderLogo"], {
+        src: "/static/logo.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 94
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderText__WEBPACK_IMPORTED_MODULE_11__["HeaderText"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
         },
         __self: this
       }, "From concept")), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
         duration: 2000,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 99
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderText__WEBPACK_IMPORTED_MODULE_10__["HeaderText"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderText__WEBPACK_IMPORTED_MODULE_11__["HeaderText"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 100
         },
         __self: this
       }, "to complete")), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
         duration: 3000,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 102
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderTextBody__WEBPACK_IMPORTED_MODULE_11__["HeaderTextBody"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_HeaderTextBody__WEBPACK_IMPORTED_MODULE_12__["HeaderTextBody"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 103
         },
         __self: this
       }, "Fully factored garment production")), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_reveal_Fade__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -4615,7 +4666,7 @@ function (_React$Component) {
         duration: 1500,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 107
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_styles_components_Button__WEBPACK_IMPORTED_MODULE_7__["Button"], {
@@ -4624,53 +4675,53 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 108
         },
         __self: this
-      }, "Find out more"))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Header__WEBPACK_IMPORTED_MODULE_4__["Header"], {
+      }, "Find out more")))), react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Header__WEBPACK_IMPORTED_MODULE_4__["Header"], {
         handleNavigation: this.handleNavigation,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 115
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
         ref: this.servicesRef,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 116
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Services__WEBPACK_IMPORTED_MODULE_6__["Services"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 117
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
         ref: this.aboutRef,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 119
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_About__WEBPACK_IMPORTED_MODULE_2__["About"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 120
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
         ref: this.contactRef,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 122
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Contact__WEBPACK_IMPORTED_MODULE_3__["Contact"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 123
         },
         __self: this
       }))));
@@ -4773,7 +4824,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return Button; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  margin: ", "px;\n  padding: ", "px\n    ", "px;\n  font-size: 1.1rem;\n  background: linear-gradient(\n    45deg,\n    ", ",\n    ", "\n  );\n  color: ", ";\n  border-radius: 1.4rem;\n  border: none;\n  cursor: pointer;\n  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);\n  transition: transform 0.2s;\n\n  :hover {\n    transform: scale(1.05);\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  margin: ", "px;\n  padding: ", "px\n    ", "px;\n  font-size: 1.1rem;\n  background: linear-gradient(\n    45deg,\n    ", ",\n    ", "\n  );\n  color: ", ";\n  border-radius: 1.4rem;\n  border: none;\n  cursor: pointer;\n  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);\n  transition: transform 0.2s;\n\n  :hover {\n    transform: scale(1.1);\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -4798,6 +4849,34 @@ var Button = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].button(_t
 }, function (props) {
   return props.theme.darkGrey;
 });
+
+/***/ }),
+
+/***/ "./styles/components/CenterDiv.ts":
+/*!****************************************!*\
+  !*** ./styles/components/CenterDiv.ts ***!
+  \****************************************/
+/*! exports provided: CenterDiv */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CenterDiv", function() { return CenterDiv; });
+/* harmony import */ var _styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styled-components */ "./styles/styled-components.ts");
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n  text-align: center;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var CenterDiv = _styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject());
 
 /***/ }),
 
@@ -4841,7 +4920,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderDiv", function() { return HeaderDiv; });
 /* harmony import */ var _styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styled-components */ "./styles/styled-components.ts");
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100vh;\n  width: 100%;\n  z-index: -1;\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100vh;\n  width: 100%;\n  z-index: -1;\n  opacity: ", ";\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -4853,7 +4932,9 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
-var HeaderDiv = _styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject());
+var HeaderDiv = _styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject(), function (props) {
+  return props.opacity;
+});
 
 /***/ }),
 
@@ -4885,6 +4966,34 @@ var HeaderImage = _styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].img
 
 /***/ }),
 
+/***/ "./styles/components/HeaderLogo.ts":
+/*!*****************************************!*\
+  !*** ./styles/components/HeaderLogo.ts ***!
+  \*****************************************/
+/*! exports provided: HeaderLogo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderLogo", function() { return HeaderLogo; });
+/* harmony import */ var _styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styled-components */ "./styles/styled-components.ts");
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n  /* position: absolute;\n  top: 0;\n  left: 0; */\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var HeaderLogo = _styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].img(_templateObject());
+
+/***/ }),
+
 /***/ "./styles/components/HeaderText.ts":
 /*!*****************************************!*\
   !*** ./styles/components/HeaderText.ts ***!
@@ -4897,7 +5006,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderText", function() { return HeaderText; });
 /* harmony import */ var _styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styled-components */ "./styles/styled-components.ts");
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  @import url('https://fonts.googleapis.com/css?family=Raleway');\n  color: ", ";\n  font-size: 3rem;\n  letter-spacing: 0.5rem;\n  font-weight: normal;\n  font-family: 'Raleway';\n  margin: 0.2rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  @import url('https://fonts.googleapis.com/css?family=Raleway');\n  color: ", ";\n  font-size: 3rem;\n  letter-spacing: 0.5rem;\n  font-weight: normal;\n  font-family: 'Raleway';\n  line-height: 3.5rem;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -5119,19 +5228,19 @@ var Logo = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].img(_templa
 
 /***/ }),
 
-/***/ "./styles/components/NameInput.ts":
-/*!****************************************!*\
-  !*** ./styles/components/NameInput.ts ***!
-  \****************************************/
-/*! exports provided: NameInput */
+/***/ "./styles/components/MailTo.ts":
+/*!*************************************!*\
+  !*** ./styles/components/MailTo.ts ***!
+  \*************************************/
+/*! exports provided: MailTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NameInput", function() { return NameInput; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MailTo", function() { return MailTo; });
 /* harmony import */ var _styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styled-components */ "./styles/styled-components.ts");
 function _templateObject() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n  text-decoration: none;\n  color: ", ";\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -5143,7 +5252,9 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
-var NameInput = _styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].input(_templateObject());
+var MailTo = _styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a(_templateObject(), function (props) {
+  return props.theme.darkGrey;
+});
 
 /***/ }),
 
@@ -5245,7 +5356,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WideBodyText", function() { return WideBodyText; });
 /* harmony import */ var _styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styled-components */ "./styles/styled-components.ts");
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  font-size: 1.2rem;\n  color: ", ";\n  max-width: 66vw;\n  letter-spacing: 0.15rem;\n  text-align: center;\n  line-height: 2.5rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-size: 1.2rem;\n  color: ", ";\n  max-width: 55vw;\n  letter-spacing: 0.25rem;\n  text-align: center;\n  line-height: 3rem;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
