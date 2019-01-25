@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { InViewListener } from 'react-enter-view';
 import Fade from 'react-reveal/Fade';
 
 import { BodyText } from '../styles/components/BodyText';
@@ -14,10 +15,17 @@ export const Services = () => (
     <IndexBodyGrid>
       <Fade>
         <LeftText>
-          <HeaderText>Design</HeaderText>
+          <InViewListener onEnterView={() => console.log('entered view')}>
+            <HeaderText>
+              <a style={{ textDecoration: 'none', color: '#f8f8f8' }} href="#">
+                Design
+              </a>
+            </HeaderText>
+          </InViewListener>
           <BodyText>
-            Lorem ipsum something about design and some more interesting things.
-            However, I don't want to write too many things here.
+            Whether you have designs for your product, or it is simply a
+            concept. We have the expertise to ensure that its potential is
+            reached.
           </BodyText>
         </LeftText>
       </Fade>
@@ -35,8 +43,8 @@ export const Services = () => (
         <RightText>
           <HeaderText>Development</HeaderText>
           <BodyText>
-            Lorem ipsum something about development and some more interesting
-            things. However, I don't want to write too many things here.
+            From material selection and sourcing, to pattern creation, we
+            cantake care of everything required to your product to manufacture.
           </BodyText>
         </RightText>
       </Fade>
@@ -44,8 +52,9 @@ export const Services = () => (
         <LeftText>
           <HeaderText>Production</HeaderText>
           <BodyText>
-            Lorem ipsum something about production and some more interesting
-            things. However, I don't want to write too many things here.
+            With connections to factories and manufacturers around the world, we
+            have the connections needed to get your product to market,
+            regardless of the scale of your needs.
           </BodyText>
         </LeftText>
       </Fade>
@@ -63,8 +72,9 @@ export const Services = () => (
         <RightText>
           <HeaderText>Supply</HeaderText>
           <BodyText>
-            Lorem ipsum something about supply and some more interesting things.
-            However, I don't want to write too many things here.
+            In addition to fully factored garment product, we are also able to
+            offer stock holding services. From our warehouse, located in
+            Manchester, UK, we can supply your stock as you need it.
           </BodyText>
         </RightText>
       </Fade>
